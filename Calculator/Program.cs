@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Calendar;
 
 namespace Calculator
 {
@@ -12,6 +13,9 @@ namespace Calculator
         {
             int n;
             bool a = true;
+            CalendarPro cc = new CalendarPro();
+            
+            
             do
             {
  
@@ -64,6 +68,7 @@ namespace Calculator
                     case 7:
                         a = false;
                         break;
+                    
                     default:
                         Console.WriteLine("Please Enter Valid key");
                         break;
